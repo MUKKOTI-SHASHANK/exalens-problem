@@ -1,0 +1,9 @@
+An empty array "dp" has been created;
+In the input object array where we find true has been changed to 10^9 and false has been changed to 0 and pushed into "dp" array using for loop
+Using forEach loop converted 0 into a sequential order how many steps its taking to reach very next 10^9(true value).
+By here our "dp" will be look like how many steps are required to go immediate avaliablity of respective place.
+declaring the curr value as postive infity and checking with the maximum value(maxVal) of each index of "dp" array. 
+if maxVal is less than curr value then curr value is changed to maxVal and its index is stored as idx.
+else maxval is greater than curr value there will be no change in curr and idx value.
+step 6 and stpe 7 is repeated till the length of "dp" array.
+and the final idx is returned.
